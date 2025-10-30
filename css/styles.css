@@ -47,13 +47,13 @@ hr {
 }
 
 .social-media a:hover i {
-    color: rgb(59, 56, 119);
+    color: rgba(25, 118, 210, 0.18);
 }
 
 .btn {
     
     padding: 12px 32px;
-    background-color: #1976d2;
+    background-color: rgba(25, 118, 210, 0.18);
     color: #fff;
     border: none;
     border-radius: 8px;
@@ -64,10 +64,11 @@ hr {
     transition: color 0.2s;
     cursor: pointer;
     
+    
 }
 
 .btn:hover {
-    background-color: #1565c0;
+    background-color: rgba(14, 65, 115, 0.18);
     color: #e3f2fd;
     
 }
