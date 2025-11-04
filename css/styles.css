@@ -16,6 +16,10 @@ hr {
     color: #fff;
 }
 
+.highlight {
+    color: #0037ff; /* ou qualquer outra cor que desejar */
+}
+
 .home {
     display: flex;
     align-items: center;
