@@ -215,3 +215,55 @@ hr {
     width: 80%;
     margin: 32px auto;
 }
+
+.theme-toggle {
+    border-radius: 50% !important;
+    width: 45px;
+    height: 45px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgba(255, 255, 255, 0.3) !important;
+    transition: all 0.3s ease;
+}
+
+body.light-mode {
+    background-color: antiquewhite !important;
+    color: #181a1b !important;
+}
+
+body.light-mode * {
+    color: #181a1b !important;
+}
+
+body.light-mode .home-content h1,
+body.light-mode .projetos h2,
+body.light-mode .aboutme h2 {
+    color: #181a1b !important;
+}
+
+body.light-mode .projeto-card {
+    background: #f5f5f5 !important;
+    color: #181a1b !important;
+}
+
+body.light-mode .projeto-card h3 {
+    color: #1976d2 !important;
+}
+
+body.light-mode .projeto-card p {
+    color: #424242 !important;
+}
+
+body.light-mode .social-media a i {
+    color: #181a1b !important;
+}
+
+body.light-mode .navbar-dark {
+    background-color: #e0e0e0 !important;
+}
+
+body.light-mode .highlight {
+    color: #1976d2 !important;
+}
