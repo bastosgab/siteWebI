@@ -29,3 +29,21 @@ function toggleTheme(){
         localStorage.setItem('theme' , 'dark');
     }
 }
+
+function loadSavedTheme(){
+    const savedTheme = localStorage.getItem('theme');
+    if (savedTheme === 'light'){
+        body.classList.add('light-mode');
+        themeIcon.className = 'bx bx-moon theme icon';
+    } else {
+        body.classList.remove('light-mode');
+        themeIcon.className = 'bx bx-sun theme icon';
+    }
+}
+
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', loadSavedTheme);
+
+} else {
+    loadSavedTheme();
+}
